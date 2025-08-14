@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Uno';
+    src: url('/Bahnschrift.woff2') format('woff2');
+    
+  }
+  
+@import "tailwindcss";
