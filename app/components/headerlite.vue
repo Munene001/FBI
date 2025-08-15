@@ -13,9 +13,8 @@
     <div class="flex items-center ml-5">
       <Icon name="ic:baseline-phone" width="17" height="17" color="white" />
       <p class="ml-1.5 flex gap-3">
-        <span>+254734641449</span>
-        <span>+254 786189755</span>
-        <span>+254100974188</span>
+        <span>+254714191919</span>
+       
       </p>
     </div>
   </div>
@@ -25,7 +24,7 @@
     <!-- Email -->
     <div class="flex items-center border-r border-blue-500 pr-6">
       <Icon name="icon-park-outline:mail-download" width="19" height="19" color="white" />
-      <p class="ml-2.5 mr-6">info@mvmt.co.ke</p>
+      <p class="ml-2.5 mr-6">draintheswamp@fbikenya.org</p>
     </div>
     
     <!-- Social Icons -->

@@ -5,7 +5,7 @@
     <div
       class="h-[90px]  px-[20px] flex-row md:flex hidden w-full bg-[rgba(188,54,29,0.85)] fixed shadow-lg shadow-b shadow-spread"
     >
-      <div class="flex w-[25%] items-center justify-start">logo</div>
+      <div class="flex w-[25%]  items-center justify-start"><img src="/l.jpeg" alt="logo" class="h-[80%]" /></div>
       <div
         class="flex-1 px-[5px] flex items-center justify-around bg-transparent pr-[10px]"
       >
@@ -15,6 +15,12 @@
         >
           HOME
         </NuxtLink>
+        <NuxtLink
+          to="/manifesto"
+          class="text-[14px] leading-[14px] font-semibold no-underline text-white hover:underline"
+        >
+          MANIFESTO
+        </NuxtLink>
 
         <NuxtLink
           to="/about"
@@ -22,12 +28,7 @@
         >
           ABOUT
         </NuxtLink>
-        <NuxtLink
-          to="/history"
-          class="text-[14px] leading-[14px] font-semibold no-underline text-white hover:underline"
-        >
-          HISTORY
-        </NuxtLink>
+       
 
         <NuxtLink
           to="/blog"
@@ -58,9 +59,9 @@
 
     <!-- Mobile Navigation -->
     <div
-      class="flex flex-row max-w-[768px] md:hidden h-[80px] shadow-lg shadow-b shadow-spread z-50 justify-between items-center pr-4 box-border bg-[rgba(188,54,29,0.85)]  w-full text-white font-[edgaramond]"
+      class="flex flex-row max-w-[768px] md:hidden h-[80px] shadow-lg shadow-b shadow-spread z-50 justify-between items-center px-4 box-border bg-[rgba(188,54,29,0.85)]  w-full text-white font-[edgaramond]"
     >
-      <div class="flex justify-start">logo</div>
+      <div class="flex justify-start h-full items-center"><img src="/l.jpeg" alt="logo" class="h-[80%]"></div>
       <button @click="togglePopup">
         <Icon name="material-symbols:menu" class="text-[28px] text-white" />
       </button>
@@ -78,6 +79,12 @@
         >
           HOME
         </NuxtLink>
+        <NuxtLink
+          to="/manifesto"
+          class="flex h-[55px] text-[18px] leading-[18px] font-semibold no-underline border-b border-gray-400 items-center justify-start hover:text-[chocolate]"
+        >
+          MANIFESTO
+        </NuxtLink>
 
         <NuxtLink
           to="/about"
@@ -85,6 +92,7 @@
         >
           ABOUT US
         </NuxtLink>
+       
         <NuxtLink
           to="/blog"
           class="flex h-[55px] text-[18px] leading-[18px] font-semibold no-underline border-b border-gray-400 items-center justify-start hover:text-[#FFD700]"

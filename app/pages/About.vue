@@ -3,18 +3,18 @@ import { NuxtLink } from "#components";
 </script>
 
 <template>
-  <div>
+  <div class="font-[uno]">
     <!-- Hero Section -->
-    <div class="bg-[url('/team.webp')] pt-[87px] h-[60vh] md:h-[85vh] bg-cover bg-center md:pt-[145px] px-[10px] font-uno flex flex-col items-center justify-center">
+    <div class="bg-[url('/about.webp')]  bg-cover  pt-[87px] h-[60vh] md:h-[85vh]  md:pt-[145px] px-[10px] font-uno flex flex-col items-center justify-center">
       <NuxtLink
         to="/contact"
-        class="border-2 font-semibold border-white text-white p-[7px] hover:bg-white hover:text-[#202654] transition-colors mb-4"
+        class="border-2 font-semibold border-white text-black bg-white p-[7px] hover:bg-transparent hover:text-[#202654] transition-colors mb-4"
         >Join The Movement</NuxtLink
       >
       <h1 class="text-[38px] md:text-[48px] leading-[1.2] font-bold text-white text-center">
         About FBI Kenya
       </h1>
-      <p class="text-white mt-4 max-w-[600px] text-center px-4">
+      <p class=" mt-4 max-w-[600px] text-center text-white px-4">
         Fighting for justice, dignity, and opportunity for all Kenyans
       </p>
     </div>
@@ -65,7 +65,7 @@ import { NuxtLink } from "#components";
             </div>
           </div>
           <div class="relative rounded-xl overflow-hidden shadow-lg h-[350px] bg-gray-100 flex items-center justify-center">
-            <img src="/about.png" alt="FBI Kenya founders at first protest" class="w-full h-full object-cover">
+            <img src="/flag.jpg" alt="FBI Kenya founders at first protest" class="w-full h-full object-cover">
           </div>
         </div>
       </div>
@@ -129,7 +129,7 @@ import { NuxtLink } from "#components";
         <div class="grid md:grid-cols-2 gap-[30px]">
           <StandWithCard
             title="Battled Business Community"
-            icon="ph:storefront"
+            icon="streamline-ultimate:performance-money-decrease-bold"
             :redTitle="true"
           >
             <p class="mb-[15px] text-gray-700">
@@ -150,7 +150,7 @@ import { NuxtLink } from "#components";
 
           <StandWithCard
             title="Betrayed Youth"
-            icon="ph:users"
+            icon="game-icons:oppression"
             :redTitle="false"
           >
             <p class="mb-[15px] text-gray-700">

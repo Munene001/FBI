@@ -7,8 +7,8 @@ import { NuxtLink } from '#components';
         <!-- Logo and Mission -->
         <div class="flex flex-col gap-6 md:flex-1">
             <div class="flex items-center gap-4">
-                <img src="/about.png" alt="MVMT logo" class="h-14 w-14">
-                <div class="text-2xl font-bold tracking-wide">THE MVMT</div>
+                <img src="/l.jpeg" alt="FBI logo" class="h-14 w-14">
+                <div class="text-2xl font-bold tracking-wide">FBI kenya</div>
             </div>
             <div class="text-base leading-relaxed font-light border-l-4 border-white pl-4 py-2">
                 We are the people's movement fighting for justice, equality and systemic change. 
@@ -77,7 +77,7 @@ import { NuxtLink } from '#components';
 
     <div class="bg-[#5E1C12] text-white font-[uno] text-center py-5 border-t border-[#A03A2B]">
         <div class="container mx-auto px-6">
-            © 2023 THE MVMT | Power to the People | 
+            © 2025 FBI Kenya | Power to the People | 
             <NuxtLink to="/privacy" class="hover:underline ml-2">Privacy Policy</NuxtLink>
         </div>
     </div>

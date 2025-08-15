@@ -5,11 +5,11 @@
       <div class="flex  px-[13px] flex-col gap-[10px]">
         <div class="text-[23px] md:text-[30px] font-semibold">
           <div>We're Here For The People.</div>
-          <div>Connect With The MVMT Team</div>
+          <div>Connect With The FBI team</div>
         </div>
         <div class="text-[14px] md:text-[16px]">
           Whether you're a concerned citizen, potential ally organization, or media representative, 
-          our dedicated team is ready to engage. Your voice and participation drive our movement forward.
+          our dedicated team is ready to engage. Your voice and participation drive our movement forward.Together, We Will End Brutality and Impunity — Rebuilding Kenya’s Future on Justice, Dignity, and Prosperity for All.
         </div>
       </div>
       <div class="md:hidden px-[13px]">
@@ -24,7 +24,7 @@
       </div>
       <div class="flex flex-col gap-[30px] px-[13px]">
           <div class="flex flex-col gap-[10px]">
-        <div class=" text-[22px] font-semibold text-red-400">
+        <div class=" text-[22px] font-semibold text-white">
           <div>Need Immediate Assistance?</div>
           <div>Contact our rapid response team</div>
         </div>
@@ -37,18 +37,9 @@
         </button>
       </div>
       <div class="w-full md:hidden flex bg-white px-[30px] py-[30px] text-[#202654] flex-col gap-[40px] border border-gray-50 rounded-3xl shadow-lg shadow-b shadow-spread z-10">
-          <div class="text-[23px] font-semibold">Connect With Our Movement</div>
-          <div class="grid grid-cols-1 gap-[40px]">
-              <Iso IconName = "vaadin:handshake" title="Allies & Coalition Partners"  description="Explore partnership opportunities with MVMT"/>
-              <Iso IconName = "ix:emergency-stop" title="Rapid Response Line"  description="Report urgent issues needing immediate action"/>
-              <Iso IconName = "humbleicons:mail" title="General Inquiries"  description="Contact us at info@mvmt.org for questions"/>
-              <Iso IconName = "tabler:microphone" title="Join Our Movement" description="Become part of the change we're building" description2 = "See Volunteer Opportunities"/>
-          </div>
+          <Form/>
           <div class="flex flex-col gap-[30px]">
-          <div class="text-center text-[23px] font-semibold">
-              <div>Before You Reach Out:</div>
-              <div>Have You Checked Our Resources?</div>
-          </div>
+         
           <div class="flex flex-row justify-between items-center">
               <div class = "space-x-[4px]">
                   <span><Icon name = "devicon:facebook" style="font-size:25px;"/></span>
@@ -57,7 +48,7 @@
                   <span><Icon name = "uiw:linkedin" style="font-size:25px;"/></span>
                   
               </div>
-              <a href="/resources" class="bg-[#202654] text-white p-[10px] rounded-md">VIEW RESOURCES</a>
+              <a href="/manifesto" class="bg-[#202654] text-white p-[10px] rounded-md">MANIFESTO</a>
           </div>
           </div>
           
