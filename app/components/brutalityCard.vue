@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gradient-to-r from-[#202654] to-[#BC361D] text-white rounded-xl p-[30px] hover:shadow-lg transition-all h-full">
+    <div class="bg-[#202654] text-white rounded-xl p-[30px] hover:shadow-lg transition-all h-full">
       <div class="text-[50px] mb-[20px]" :class="redIcon ? 'text-white' : 'text-white'">
         <Icon :name="icon" />
       </div>

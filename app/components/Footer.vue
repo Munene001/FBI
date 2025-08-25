@@ -15,7 +15,7 @@ import { NuxtLink } from '#components';
                 Join us in building power through collective action and grassroots organizing.
             </div>
             <div class="flex gap-4">
-                <NuxtLink to="/join" class="bg-white text-[#8A2B1A] px-6 py-2 rounded font-medium hover:bg-gray-100 transition">
+                <NuxtLink to="/contact" class="bg-white text-[#8A2B1A] px-6 py-2 rounded font-medium hover:bg-gray-100 transition">
                     Join Now
                 </NuxtLink>
             </div>
@@ -38,7 +38,7 @@ import { NuxtLink } from '#components';
                 <div class="flex flex-col gap-3 text-base font-light">
                    
                     <NuxtLink to="/manifesto" class="hover:text-gray-300 transition">Our Manifesto</NuxtLink>
-                    <NuxtLink to="/Faqs" class="hover:text-gray-300 transition">FAQS</NuxtLink>
+                    <NuxtLink to="/contact" class="hover:text-gray-300 transition">FAQS</NuxtLink>
                     <NuxtLink to="/contact" class="hover:text-gray-300 transition">Contact Us</NuxtLink>
                 </div>
             </div>
@@ -49,8 +49,8 @@ import { NuxtLink } from '#components';
             <div class="flex flex-col gap-4">
                 <h3 class="text-xl font-bold uppercase tracking-wider">Connect</h3>
                 <div class="flex flex-col gap-2 text-base font-light">
-                    <div>contact@themvmt.org</div>
-                    <div>+254 700 000 000</div>
+                    <div>draintheswamp@fbikenya.org</div>
+                    <div>+254714191919</div>
                     <div>Nairobi, Kenya</div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ import { NuxtLink } from '#components';
     <div class="bg-[#5E1C12] text-white font-[uno] text-center py-5 border-t border-[#A03A2B]">
         <div class="container mx-auto px-6">
             © 2025 FBI Kenya | Power to the People | 
-            <NuxtLink to="/privacy" class="hover:underline ml-2">Privacy Policy</NuxtLink>
+            <NuxtLink to="" class="hover:underline ml-2">Privacy Policy</NuxtLink>
         </div>
     </div>
 </template>
